@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 14px;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+	padding: 20px;
+	background-color: #005689;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.company-name {
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: #d5eeff;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.company-name a {
+	color: #d5eeff;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: flex-end;
+}
+.main-nav li {
+	margin-left: 2em;
+}
+
+.main-nav a {
+	color: #d5eeff;
+	padding-bottom: 0.3em;
+}
+
+.main-nav a:hover {
+	border-bottom: 1px dotted #d5eeff;
+}
+
+section {
+	padding: 50px 20px 80px;
+	background-color: #d5eeff;
+	color: #005689;
+}
+
+section:nth-child(even) {
+	background-color: #005689;
+	color: #d5eeff;
+}
+
+#about h1 {
+	font-size: 3em;
+	font-style: italic;
+	text-decoration: underline;
+	margin-bottom: 30px;
+	text-shadow: 2px 2px 2px rgba(0, 86, 137, 0.4);
+}
+.about-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about-content figure {
+	width: 30%;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.about-content p {
+	width: 65%;
+	padding: 30px;
+	border: 1px solid rgb(0, 86, 137);
+	box-shadow: 5px 5px 5px 3px rgba(0, 86, 137, 0.4);
+}
