@@ -42,6 +42,7 @@
 		<p>Explicabo voluptatibus quos odio, similique numquam, saepe ex blanditiis error harum facere cum nostrum! Fugit molestiae eos dignissimos corporis alias, perferendis sint rerum similique delectus aliquid ut iusto quia impedit ea quisquam laudantium error numquam soluta quidem. Blanditiis voluptatibus tenetur expedita rerum quas nam accusamus nostrum exercitationem a officiis. Necessitatibus illum, quis sunt minus. Veritatis, dolorem veniam illum quae consequatur quas repudiandae similique porro magnam accusamus, quia neque ipsum minima et, suscipit excepturi libero ducimus soluta! Magnam, deleniti, quam. Ab, soluta dolorum deleniti eaque porro totam minima tempora, nisi dolor eos similique temporibus ducimus maiores! Amet, tempora debitis explicabo culpa?</p>
 		<p>Tempore libero alias in placeat. Vitae, doloribus saepe libero cupiditate. Veritatis, tenetur in laborum sequi cupiditate aut. Similique placeat molestias, distinctio cum aliquam fugiat asperiores culpa eius incidunt inventore corrupti voluptate! Dolorem itaque dolorum, optio, porro nam facere hic? Nemo, commodi ad fugiat ullam architecto asperiores minima iusto, vel veniam at dolore nisi fugit, consectetur pariatur excepturi deserunt. Asperiores cupiditate corporis, sequi magnam odit esse repellat aspernatur corrupti aliquid, vitae ab, dignissimos labore ad quisquam incidunt nulla accusamus facilis maiores placeat voluptatibus possimus. Praesentium accusamus, vitae. Officia, aliquam velit unde, incidunt, dolores qui vitae quibusdam cupiditate expedita nesciunt obcaecati natus.</p>
 	</div>
+	<button>Modal</button>
 
 	<div class="modal-background">
 		<div class="modal-wrapper">
@@ -51,7 +52,17 @@
 		</div>
 	</div>
 
-
+<script>
+	let modal = document.querySelector('.modal-background');
+	let btn = document.querySelector('button');
+	let close = document.querySelector('.btn-close');
+	btn.addEventListener('click', () => {
+		modal.style.display = 'flex';
+	})
+	close.addEventListener('click', () => {
+		modal.style.display = 'none';
+	})
+</script>
 
 
 

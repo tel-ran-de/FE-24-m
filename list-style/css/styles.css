@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+	margin-bottom: 30px;
+}
+
+li {
+	position: relative;
+}
+
+li:before {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: -15px;
+	width: 10px;
+	height: 15px;
+	/*background-color: red;*/
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Map_marker.svg/512px-Map_marker.svg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+a {
+	position: relative;
+	font-size: 2em;
+}
+
+a[href$='pdf']:before {
+	content: '';
+	position: absolute;
+	top: 2px;
+	right: -40px;
+	width: 30px;
+	height: 30px;
+	background-image: url(https://www.offiwiz.com/images/cam-scanner/cam-scanner-icon.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}

@@ -15,7 +15,7 @@ body {
 	right: 0;
 	bottom: 0;
 	background-color: rgba(200,200,200,.9);
-	display: flex;
+	display: none;
 	justify-content: center;
 	align-items: center;
 }
