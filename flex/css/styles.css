@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	margin-bottom: 30px;
+	border: 1px solid red;
+	height: 250px;
+	display: flex;
+	/* flex-direction: row-reverse; */
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.container > div {
+	/* width: 23%; */
+	padding: 30px;
+	background: green;
+	color: #fff;
+	font-weight: bold;
+}
+
+.container > div:first-child {
+	/* margin-left: 10px; */
+	/* padding-top: 50px; */
+}
+
+.container > div:nth-child(2) {
+	order: -1;
+}
+
+.four {
+	align-self: stretch;
+	order: -2;
+}

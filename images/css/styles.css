@@ -1,0 +1,19 @@
+img {
+	max-width: 100%;
+}
+
+.wrapper {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.bg-image {
+	background-image: url(https://picsum.photos/seed/picsum/800);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 10px 10px;
+	min-height: 300px;
+	max-height: 350px;
+	overflow: scroll;
+}
