@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Heebo", sans-serif;
+}
+
+.main_container {
+    display: block;
+    width: 800px;
+    height: 650px;
+    background-color: rgb(80, 79, 79);
+    margin: 50px auto;
+    position: relative;
+}
+
+.content_box {
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 24%;
+    width: 50%;
+    height: 60%;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 7px 7px rgb(22, 22, 22, 0.1);
+    border: 0.4px solid rgb(255, 187, 0);
+}
+.yellow {
+    background-color: rgb(255, 196, 0);
+    height: 50%;
+    position: relative;
+    border-radius: 7px 7px 7px 7px;
+}
+.yellow span {
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left: 60px;
+    width: 70%;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 70px;
+}
+.yellow .x_close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.white_percent {
+    display: block;
+    text-align: center;
+}
+.up_to {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+.up_to > span {
+    font-size: 60px;
+}
+.dollar {
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(104, 104, 104);
+    padding-bottom: 20px;
+}
+a {
+    display: inline-block;
+    height: 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(255, 196, 0);
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    border-radius: 22px;
+    text-align: center;
+    letter-spacing: 1px;
+}

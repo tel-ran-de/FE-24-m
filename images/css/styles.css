@@ -17,3 +17,18 @@ img {
 	max-height: 350px;
 	overflow: scroll;
 }
+
+.img-wrapper {
+	width: 30%;
+	height: 250px;
+	margin: 50px auto;
+	overflow: hidden;
+	border: 5px solid red;
+}
+
+.img-wrapper img {
+	/* height: 100%;
+	width: 100%;
+	object-fit: contain;
+	object-position: center; */
+}

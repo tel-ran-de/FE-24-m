@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    font-family: "League Gothic", sans-serif;
+}
+
+.wrapper {
+    position: relative;
+}
+img {
+    padding-top: 50px;
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+.container_text {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    background-color: rgb(214, 236, 234);
+    width: 300px;
+    height: 300px;
+    border-radius: 30px 30px 0 30px;
+    margin-left: 40px;
+}
+.container_text h1 {
+    padding-top: 7px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 40px;
+    color: #3d4965;
+}
+.container_text p {
+    margin-top: 5px;
+    padding-left: 20px;
+    font-family: "Prompt", sans-serif;
+    color: #394656;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.container_text .button_link {
+    display: inline-block;
+    background-color: #b58f69;
+    height: 25px;
+    padding: 0 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(141, 54, 4, 0.4);
+}
+.button_link span {
+    font-family: "Prompt", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 25px;
+    background: url("../img/arrow.svg") right no-repeat;
+    padding-right: 27px;
+}
+.container_text .button_link:hover {
+    background-color: #3d4965;
+}
+.container_text .button_link:active {
+    position: relative;
+    top: 3px;
+    box-shadow: 5px 5px 5px rgba(118, 159, 161, 0.5);
+}

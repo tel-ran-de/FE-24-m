@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.main_container {
+    background-color: rgb(235, 235, 235);
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 600px;
+    min-height: 450px;
+}
+
+.header {
+    display: block;
+    padding: 30px 25px 20px 30px;
+    width: 60%;
+}
+.one,
+.two,
+.three,
+.four {
+    border-left: 7px solid rgb(255, 208, 0);
+    background-color: white;
+    width: 260px;
+}
+h3 {
+    padding: 10px 0;
+    color: rgb(255, 208, 0);
+    margin-left: 10px;
+}
+
+p {
+    margin-left: 10px;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.one {
+    margin-left: 30px;
+}
+.two {
+    position: absolute;
+    right: 30px;
+    top: 127px;
+}
+
+.three {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.four {
+    position: absolute;
+    right: 30px;
+    bottom: 7px;
+    margin-bottom: 20px;
+}
+i {
+    display: block;
+    padding: 15px 10px;
+    font-size: 12px;
+}

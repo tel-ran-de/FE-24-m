@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Hind", sans-serif;
+}
+
+.main_container {
+    display: flex;
+    margin: 90px auto;
+    width: 800px;
+}
+.text_description {
+    background-color: #fff;
+    width: 400px;
+}
+.header {
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+h1 {
+    color: rgba(105, 203, 148, 255);
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 40px;
+    padding-bottom: 10px;
+}
+.sub_header {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+
+.text {
+    font-size: 13px;
+    text-align: left;
+    color: rgb(187, 188, 188);
+    font-weight: 600;
+    padding-right: 10px;
+    line-height: 20px;
+}
+
+.figure_numbers {
+    background-color: rgba(241, 241, 241, 255);
+    position: relative;
+    display: block;
+    width: 400px;
+}
+
+.one,
+.two,
+.three,
+.four {
+    width: 200px;
+}
+.one {
+    padding-top: 20px;
+}
+
+.two {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 20px;
+}
+.three {
+    padding-bottom: 20px;
+}
+.four {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 20px;
+}
+.figure_numbers p {
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: rgb(180, 180, 180);
+    font-weight: 600;
+    padding: 0 10px 20px 20px;
+}
+
+.number_one,
+.number_two,
+.number_three,
+.number_four {
+    font-size: 52px;
+    font-weight: 600;
+    text-align: center;
+}

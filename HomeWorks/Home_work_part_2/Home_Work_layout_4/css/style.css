@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Heebo", sans-serif;
+}
+.main_container {
+    display: block;
+    position: relative;
+    margin: 50px auto;
+    width: 800px;
+    height: 400px;
+    background-color: rgb(145, 131, 123);
+}
+.backrgound_img {
+    display: block;
+    width: 600px;
+    height: 420px;
+    background: url("../img/houses.jpg") center / cover no-repeat;
+    position: absolute;
+    right: 40px;
+    top: 50px;
+    box-shadow: -6px 15px 78px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -6px 15px 78px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -6px 15px 78px -6px rgba(0, 0, 0, 0.75);
+}
+.header {
+    display: block;
+    position: relative;
+    top: 80px;
+    left: 90px;
+    z-index: 1;
+    width: 100px;
+    color: #a13533;
+    text-transform: uppercase;
+    font-size: 55px;
+    text-align: center;
+    font-weight: 900;
+}
+.text_description {
+    display: block;
+    width: 280px;
+    line-height: 16px;
+    text-align: justify;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+}
