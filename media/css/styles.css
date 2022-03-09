@@ -1,0 +1,60 @@
+/*
+
+@media 'media type' and (condition: breakpoint) {
+
+}
+
+Media Types:
+- all - all types
+- printer - for printers
+- screen - for computer screens, tablets nd smartphones
+- speach - for screen readers
+
+Breakpoints (in px):
+- 320-480 - Mobile devices
+- 481-768 - IPads, Tablets
+- 769-1024 - Small screens, laptop
+- 1025-1280 - Desktops, large screens 
+- 1281-... - Extra large screens, TV 
+
+*/
+
+/* .text {
+	font-size: 14px;
+}
+
+@media screen and (max-width: 480px) {
+	.text {
+		font-size: 16px;
+	}
+	.logo {
+	}
+
+	ul li a {
+	}
+} */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.article h2 {
+	margin: 10px 0;
+	text-align: center;
+}
+
+.article-img {
+	margin-bottom: 15px;
+}
+
+.article-img img {
+	max-width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+
+.article-descr {
+	padding: 10px;
+}
