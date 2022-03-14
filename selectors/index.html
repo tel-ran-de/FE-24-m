@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Selectors</title>
+		<style>
+			body .wrapper #green {
+				color: green;
+			}
+			#green.blue {
+				color: blue;
+			}
+			p {
+				color: red;
+			}
+			.wrapper .blue {
+				color: pink;
+			}
+
+			/*
+                id - class - tag
+                1 - 0 - 0
+                1 - 1 - 0
+                0 - 0 - 1
+                0 - 2 - 0
+            */
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<p id="green" class="blue aaa">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Assumenda, dolores.
+			</p>
+		</div>
+	</body>
+</html>

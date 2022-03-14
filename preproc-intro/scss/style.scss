@@ -1,0 +1,73 @@
+/* Variables */
+@import 'variables';
+
+/* Mixins */
+@import 'mixins';
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.text {
+	color: $primary-color;
+	font-family: $primary-font;
+	@include bradius(1px, 1px, 10px, 10px);
+}
+
+.bg {
+	background-color: $primary-color;
+}
+
+%btn {
+	background-color: transparent;
+	border: none;
+	padding: 8px 20px;
+	cursor: pointer;
+}
+
+.btn-primary {
+	@extend %btn;
+	color: blue;
+	background-color: #fff;
+}
+
+.btn-warning {
+	@extend %btn;
+	color: red;
+	background-color: #ffe;
+}
+
+/* Nesting + parent selector */
+
+ul {
+	list-style: none;
+
+	li {
+		margin-bottom: 20px;
+		@extend .bg;
+		@include list-bullit(10px, 10px, 'list.png');
+		@include for-laptop {
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		@include for-small {
+			/* rules */
+		}
+
+		a {
+			text-decoration: none;
+			@include for-laptop {
+				font-size: 1.3em;
+			}
+			&:hover {
+				border-bottom: 1px dotted #eee;
+			}
+		}
+	}
+}
+
+/* Partials */
+@import 'about';
+
+@import 'base';

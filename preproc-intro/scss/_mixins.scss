@@ -1,0 +1,34 @@
+@mixin bradius($topr: 5px, $topl: 5px, $botr: 5px, $botl: 5px) {
+	border-radius: $topl $topr $botr $botl;
+	-moz-border-radius: $topl $topr $botr $botl;
+	-webkit-border-radius: $topl $topr $botr $botl;
+}
+
+@mixin list-bullit($wsize, $hsize, $icon) {
+	position: relative;
+	&::before {
+		content: '';
+		display: block;
+		width: $wsize;
+		height: $hsize;
+		position: absolute;
+		top: 8px;
+		left: -10px - $wsize;
+		background-image: url($icon);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+
+@mixin for-laptop {
+	@media screen and (min-width: 768px) {
+		@content;
+	}
+}
+
+@mixin for-small {
+	@media screen and (min-width: 1024px) {
+		@content;
+	}
+}
