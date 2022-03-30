@@ -124,6 +124,9 @@ const getCountDigit = (number) => {
  * @returns
  */
 const checkEvenNumber = (value) => value % 2 === 0;
+// function checkEvenNumber(value) {
+// 	return (value % 2 === 0)
+// }
 
 /**
  *
