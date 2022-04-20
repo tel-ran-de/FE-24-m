@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Events</title>
+		<script src="./app.js" defer></script>
+		<style>
+			div:first-child {
+				min-height: 50px;
+				padding: 10px;
+				border: 1px solid red;
+				width: 80%;
+				margin: 0 auto;
+			}
+			input {
+				font-size: 18px;
+				padding: 5px;
+				border: none;
+				border-bottom: 1px dotted blue;
+				width: 80%;
+				margin: 0 auto;
+				display: block;
+			}
+			input:focus {
+				outline: none;
+				border-bottom: 3px dotted blue;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="result"></div>
+		<button>Click Me</button>
+		<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+		</ul>
+
+		<input type="text" name="first-name" id="first-name" />
+	</body>
+</html>
