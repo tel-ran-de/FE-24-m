@@ -1,0 +1,399 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+*, 
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: radial-gradient(86.56% 115.41% at 20.09% 53.71%, #2C35A2 1%, #252C88 16%, #1B2167 40%, #15194F 62%, #101540 83%, #0F133B 100%);;
+}
+
+button, input {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1160px;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  border-radius: 25px;
+}
+
+/* HEADER */
+.header {
+  padding: 37px 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: #ffffff;
+}
+
+.header__nav_list{
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header__nav_list_item a {
+  font-size: 16px;
+}
+
+.signup-btn {
+  padding: 0.5rem 1.5rem;
+  background-color: #6DE0F6;
+}
+
+.login-btn {
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  border: 1px solid #6DE0F6;
+}
+
+/* MAIN */
+.promo {
+  margin-bottom: 100px;
+}
+
+.promo .container {
+  color: #ffffff;
+  background: url('../img/main.svg') no-repeat;
+  background-position: right center;
+  background-size: 50%;
+}
+
+.promo__head {
+  max-width: 40%;
+  font-size: 40px;
+}
+
+.promo__description {
+  margin-bottom: 3rem;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.exchange_form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: url('../img/arrows.png') no-repeat;
+  background-position: 49% 51px;
+}
+
+.exchange_form__row {
+  margin-bottom: 1.4rem;
+}
+
+.exchange_form__row input,
+.exchange_form__select {
+  padding: 12px;
+  width: calc(100% / 2 - 10px);
+  font-size: 18px;
+  background-color: #CEEDFF;
+  border-radius: 5px;
+}
+
+/* .exchange_form__select{
+  width: calc(100% / 2 - 10px);
+} */
+
+.exchange_form_label {
+  position: relative;
+}
+
+.exchange_form_label::before {
+  position: absolute;
+  top: -2rem;
+  color: #ffffff;
+}
+
+.exchange_form_label:first-child::before {
+  content: "You give";
+}
+
+.exchange_form_label:nth-child(2)::before {
+  content: "You receive";
+  left: 0;
+}
+
+/* .exchange_form__select{
+ // styles
+} */
+
+.exchange_form__row:nth-child(3){
+  display: flex;
+  padding-top: 1.7rem;
+}
+
+.exchange_form__rate,
+.exchange_form__commission {
+  position: relative;
+  width: 50%;
+}
+
+.exchange_form__rate::before,
+.exchange_form__commission::before {
+  position: absolute;
+  top: -1.6rem;
+  color: #ffffff;
+}
+
+.exchange_form__rate::before{
+  content: "Rate";
+}
+
+.exchange_form__commission::before {
+  content: "Commission - 1%";
+}
+
+.exchange_form__rate span,
+.exchange_form__commission span {
+  color: #8B8B8B;
+}
+
+.exchange_form__submit {
+  align-self: center;
+  margin-bottom: 1.5rem;
+  padding: .8rem 0;
+  width: 65%;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #D4088C;
+}
+
+.exchange_form__checkbox-label {
+  text-align: center;
+}
+
+.exchange_form__checkbox-label a {
+  border-bottom: 1px solid #fff;
+}
+
+/* APPLICATION */
+.applications {
+  position: relative;
+  margin-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #CEEDFF;
+}
+
+.applications::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  width:0;
+  height:0;
+  border-bottom: 50px solid #CEEDFF; 
+  border-right: 100vw solid transparent;  
+}
+
+.applications::after {
+  content: '';
+  position: absolute;
+  bottom: -49px;
+  width:0;
+  height:0;
+  border-top: 50px solid #CEEDFF; 
+  border-left: 100vw solid transparent;  
+}
+
+.applications__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 72px;
+}
+
+.applications__list_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.applications_list_item_time{
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.applications__received_currency,
+.applications__give_currency {
+  font-weight: 500;
+}
+
+.applications__received_currency span,
+.applications__give_currency span {
+  font-weight: 400;
+}
+
+/* MODAL */
+.modal {
+  position: fixed;
+  width: 300px;
+  height: 400px;
+  left: calc(50% - 150px);
+  top: calc(50% - 200px);
+  background: #CEEDFF;
+}
+.modal-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  backdrop-filter: blur(5px);
+  display: none;
+}
+.modal__close {
+  float: right;
+  padding: 20px;
+  background: url('../img/close.svg') no-repeat center;
+  background-size: 20px;
+  cursor: pointer;
+}
+.modal__header {
+  padding: 50px 20px 0;
+  text-align: center;
+}
+.modal__content {
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  padding-top: 56px;
+  padding-bottom: 90px;
+  background-color: #323232;
+  color: #FBFBFB;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__figure {
+  margin-bottom: 20px;
+}
+
+.footer__copyright {
+  text-align: center;
+}
+
+.footer__popular__list {
+  margin-top: 12px;
+  line-height: 1.2;
+  list-style: disc;
+}
+
+.footer__menu {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ max-height: 140px;
+}
+
+.footer__menu_item:not(:last-child) {
+  margin-bottom: 7px;
+  margin-right: 50px;
+}
+
+.footer__signup_btn {
+  margin-right: 24px;
+}
+
+@media screen and (max-width: 1180px) {
+  .header .container,
+  .header__nav,
+  .header__nav_list{
+    gap: 1rem;
+  }
+
+  .footer__menu {
+    max-height: initial;
+  }
+}

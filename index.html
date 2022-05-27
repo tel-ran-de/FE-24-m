@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Exchange</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <figure class="header_figure logo-wrapper">
+        <img src="./img/logo.svg" alt="Logo">
+      </figure>
+      <nav class="header__nav">
+        <ul class="header__nav_list">
+          <li class="header__nav_list_item">
+            <a href="#">Home</a>
+          </li>
+          <li class="header__nav_list_item">
+            <a href="#">Tariffs</a>
+          </li>
+          <li class="header__nav_list_item">
+            <a href="#">Reviews</a>
+          </li>
+          <li class="header__nav_list_item">
+            <a href="#">Rules</a>
+          </li>
+          <li class="header__nav_list_item">
+            <a href="#">FAQ</a>
+          </li>
+          <li class="header__nav_list_item">
+            <a href="#">For partners</a>
+          </li>
+          <li class="header__nav_list_item">
+            <a href="#">Contacts</a>
+          </li>
+        </ul>
+        <button class="signup-btn btn">Sign Up</button>
+        <button class="login-btn btn">Login in</button>
+      </nav>
+    </div>  
+  </header>
+  <main class="main">
+    <section class="promo">
+      <div class="container">
+        <h1 class="promo__head">Currency Exchange fast & safe</h1>
+        <p class="promo__description">No extra fee. Account replenishment no longer than 15 minutes</p>
+        <form class="exchange_form">
+          <div class="exchange_form__row">
+            <label class="exchange_form_label" for="give-amount">
+              <input id="give-amount" type="text" placeholder="Amount">
+            </label>
+            <label class="exchange_form_label" for="receive-amount">
+              <input id="receive-amount" type="text" disabled="true" placeholder="Amount">
+            </label>
+          </div>
+          <div class="exchange_form__row">
+            <select name="give_currency" id="give_currency" class="exchange_form__select"></select>
+            <select name="receive_currency" id="receive_currency" class="exchange_form__select"></select>
+          </div>
+          <div class="exchange_form__row">
+            <div class="exchange_form__rate">
+                1 <span>USD</span> = 1 <span>USD</span>
+            </div>
+            <div class="exchange_form__commission">
+                3456 <span>BCH</span>
+            </div>
+          </div>
+          <button class="btn exchange_form__submit" type="submit">Exchange</button>
+          <label class="exchange_form__checkbox-label">
+            <input class="exchange_form__checkbox" type="checkbox" name="rules_agree" id="rules_agree">
+            I agree with 
+            <a href="#">Rules and statements</a>
+          </label>
+        </form>
+      </div>  
+    </section>  
+    <section class="applications">
+      <div class="container">
+        <h2 class="applications__heading section__heading">Latest applications</h2>
+
+
+        <ul class="applications__list">
+          <!-- render -->
+
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <figure class="footer__figure logo-wrapper">
+          <img src="./img/logo.svg" alt="Logo">
+        </figure>
+        <div class="footer__copyright">
+          <p class="footer__copyright_text">&copy; 2021, cryptosale.net</p>
+          <p class="footer__copyright_text">All rights reserved</p>
+        </div>
+      </div>
+      <div class="footer__wrapper">
+        <p>Popular directions of exchange_form</p>
+        <ul class="footer__popular__list">
+          <li><a href="#">Exchange Bitcoin to Qiwi</a></li>
+          <li><a href="#">Exchange Sber to Bitcoin </a></li>
+          <li><a href="#">Exchange Ether to Sber </a></li>
+          <li><a href="#">Exchange Ether to Tinkoff</a></li>
+        </ul>
+      </div>
+      <div class="footer__wrapper">
+        <ul class="footer__menu">
+          <li class="footer__menu_item">
+            <a href="#">Tariffs</a>
+          </li>
+          <li class="footer__menu_item">
+            <a href="#">Reviews</a>
+          </li>
+          <li class="footer__menu_item">
+            <a href="#">Rules</a>
+          </li>
+          <li class="footer__menu_item">
+            <a href="#">FAQ</a>
+          </li>
+          <li class="footer__menu_item">
+            <a href="#">For partners</a>
+          </li>
+          <li class="footer__menu_item">
+            <a href="#">Policy</a>
+          </li>
+          <li class="footer__menu_item">
+            <a href="#">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__wrapper">
+        <button class="footer__signup_btn signup-btn btn">Sign Up</button>
+        <button class="footer__login_btn login-btn btn">Log in</button>
+      </div>
+    </div>
+  </footer>
+
+
+  <div class="modal-wrapper">
+    <div class="modal">
+      <div class="modal__close"></div>
+      <h2 class="modal__header">head</h2>
+      <p class="modal__content">text</p>
+    </div>
+  </div>   
+
+
+  <script type="module" src="./js/app.js"></script> 
+</body>
+</html>
