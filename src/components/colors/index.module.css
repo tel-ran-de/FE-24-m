@@ -1,0 +1,10 @@
+.colors {
+	padding: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.color {
+	width: 100px;
+	height: 100px;
+	background: #0c00d8;
+}
