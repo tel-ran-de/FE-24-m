@@ -1,0 +1,9 @@
+.checkboxInputContainer {
+	margin-bottom: 10px;
+}
+.checkboxLabel {
+	display: block;
+}
+.checkboxInput {
+	padding: 10px;
+}
