@@ -1,0 +1,20 @@
+.btn {
+  padding: .7rem 2rem;
+  font-size: 2rem;
+  background-color: transparent;
+  border: 2px solid #cdcdcd;
+}
+
+.submit {
+  padding: .7rem 2rem;
+  font-size: 2rem;
+  background-color: gray;
+  border: 2px solid #cdcdcd;
+}
+
+.reset {
+  padding: .7rem 2rem;
+  font-size: 2rem;
+  background-color: #cdcdcd;
+  border: 2px solid #cdcdcd;
+}
