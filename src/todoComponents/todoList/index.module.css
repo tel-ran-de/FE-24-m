@@ -1,0 +1,40 @@
+.listItem {
+  word-break: break-all;
+  padding: 15px 15px 15px 20px;
+  display: block;
+  line-height: 1.2;
+  transition: color 0.4s;
+	display: flex;
+  align-items: center;
+  justify-content: space-between;}
+.list{
+	padding: 0;
+}
+.completed {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	border: 1px solid gray;
+	margin-right: 20px;
+}
+.deleteTodo {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	border: 1px solid gray;
+    font-size: 30px;
+    color: #cc9a9a;
+    transition: color 0.2s ease-out;
+    background: red;
+}
+
+
+.listItem.checked .completed {
+	background: #5dc2af;
+}
+.listItem.checked {
+    color: #d9d9d9;
+    text-decoration: line-through;
+}
