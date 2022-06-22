@@ -1,0 +1,24 @@
+.todosContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  height: 95vh;
+  background-color: #B0A2F2;
+}
+
+/* .todosSection {
+  
+} */
+
+.todosBtn{
+  padding: 13px 55px;
+  color: #1C1B1F61;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #C8BFFF;
+}
+.active{
+  color: #5946D2;
+  border-bottom-color: #5946D2;
+}
