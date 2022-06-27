@@ -1,0 +1,15 @@
+.todoPanel {
+  display: block;
+  position: absolute;
+  right: -280px;
+  top: 0;
+  width: 280px;
+  height: 100vh;
+  padding: 40px 20px;
+  background-color: #fff;
+  transition: right 500ms ease-in-out;
+}
+.isShown {
+  right: 0;
+}
+

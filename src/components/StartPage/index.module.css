@@ -1,0 +1,32 @@
+.startPage {
+	display: flex;
+}
+
+.startSideBar {
+	width: 450px;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+	padding: 0 60px;
+	background: #fff;
+	height: 100vh;
+}
+
+.textBox h1 {
+
+}
+
+.textBox p {
+
+}
+
+.button {
+	
+}
+
+.startBack {
+	width: calc(100% - 450px);
+	background: rgba(89, 70, 210, 0.08);
+	height: 100vh;
+}
