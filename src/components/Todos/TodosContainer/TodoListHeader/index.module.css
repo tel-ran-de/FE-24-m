@@ -1,0 +1,36 @@
+.headingWrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.todosHeading{
+  color: rgba(28, 27, 31, 0.6);
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  background-color: transparent;
+  border: none;
+}
+.todosHeading:disabled{
+  color: #ffffff;
+}
+.headingBtn{
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  background-size: 90%;
+  background-position: center;
+}
+.headingBtn:active{
+  filter: brightness(30%);
+}
+.headingSave{
+  position: relative;
+  right: 40px;
+}
+.headingEdit{
+  background-image: url('../../../../img/edit.svg');
+}
+.headingDelete{
+  background-image: url('../../../../img/remove.svg');
+}

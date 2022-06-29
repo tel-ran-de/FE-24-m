@@ -1,0 +1,21 @@
+.todoDescr {
+  width: 85%;
+}
+.todoDescr h2 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1C1B1F;
+}
+.todoDescr p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgba(28, 27, 31, 0.6);
+}
