@@ -1,0 +1,19 @@
+.addButton {
+  display: block;
+  height: 40px;
+  width: 100%;
+  font-size: larger;
+  text-align: left;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  background: url('../../../../img/plus.svg') no-repeat left 16px center;
+  background-color: rgba(28, 27, 31, 0.16);
+  background-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding-left: 50px;
+}
+.addButton:hover {
+  filter: brightness(30%);
+}

@@ -1,0 +1,28 @@
+.todoPanelDeleteWrapper {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  padding-top: 15px;
+}
+
+.todoPanelDeleteWrapper p {
+  font-size: 14px;
+}
+
+.todoPanelDeleteWrapper span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center;
+}
+
+.todoPanelArrow {
+  background: url('../../../../img/arrow.svg') no-repeat;
+}
+
+.todoPanelDelete {
+  background: url('../../../../img/delete.svg') no-repeat;
+}

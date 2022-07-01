@@ -1,0 +1,31 @@
+.todosContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  transition: width 500ms ease-in-out;
+}
+
+.showPanel {
+  width: calc(100% - 280px);
+}
+
+.todosSection {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+  padding: 20px;
+}
+
+.todosBtn{
+  padding: 13px 55px;
+  color: #1C1B1F61;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #C8BFFF;
+}
+.active{
+  color: #5946D2;
+  border-bottom-color: #5946D2;
+}
