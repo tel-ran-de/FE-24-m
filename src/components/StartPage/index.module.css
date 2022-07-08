@@ -1,0 +1,61 @@
+.startPage {
+  display: flex;
+  background-color: rgba(89, 70, 210, 0.08);
+}
+
+.startSideBar {
+  padding: 0 60px;
+  width: 450px;
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.startBack {
+  height: 100vh;
+  width: calc(100% - 450px);
+  background: url('../../img/welcome_uno.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.logo {
+  width: 103px;
+  height: 30px;
+  background: url('../../img/uno_platform_logo.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.textBox {
+  margin: 20px 0;
+}
+
+.textBox h1 {
+  font-weight: 400;
+  font-size: 57px;
+  line-height: 64px;
+}
+
+.textBox p {
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5835E5;
+}
+
+.startedBtn {
+  padding: 10px 0;
+  width: 100%;
+  line-height: 20px;
+  color: #fff;
+  background-color: #5835E5;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+}
