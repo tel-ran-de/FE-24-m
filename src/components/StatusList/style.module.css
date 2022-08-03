@@ -1,0 +1,30 @@
+.statusListWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  background-color: #fff;
+}
+
+.itemsLeftText {
+  color: #acacac;
+}
+
+.toggleTabs {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  color: #acacac;
+  cursor: default;
+}
+
+.deleteCompletedBtn {
+  color: #acacac;
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  background-color: transparent;
+}
+
+.deleteCompletedBtn:active {
+  color: #000000;
+}

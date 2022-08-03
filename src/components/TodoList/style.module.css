@@ -1,0 +1,56 @@
+.todoList {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  list-style: none;
+}
+
+.todoItem {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #c5c5c5b0;
+}
+
+.title {
+  max-width: 65%;
+  overflow: auto;
+}
+
+.checked .title {
+  text-decoration: line-through;
+  color: #c5c5c5;
+}
+
+.completed {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 1px solid #c5c5c5;
+}
+
+.checked .completed{
+  background-image: url('../../img/305228.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+}
+
+.deleteTodo {
+  display: none;
+  position: absolute;
+  right: 1rem;
+  width: 30px;
+  height: 30px;
+  background-image: url('../../img/delete.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.todoItem:hover .deleteTodo {
+  display: block;
+}
